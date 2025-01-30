@@ -98,3 +98,16 @@
       }
     }
   }
+
+
+  .aboutc{
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.abouth{
+    text-align: center;
+    justify-content: center;
+}

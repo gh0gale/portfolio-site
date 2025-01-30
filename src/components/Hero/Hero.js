@@ -33,8 +33,8 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Yash
-          <br />
+          Yash 
+          <br/>
           Ghogale
         </h1>
         <h2>UG Student</h2>
@@ -49,10 +49,7 @@ function Hero() {
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
-        <p className={styles.description}>
-          Engineering student passionate about web development and UI/UX, eager to create
-          impactful projects.
-        </p>
+        <p className={styles.description}>Based in Mumbai</p>
         <a href={CV} download>
           <button className="hover">Resume</button>
         </a>

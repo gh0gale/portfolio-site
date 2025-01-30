@@ -1,0 +1,12 @@
+.aboutc{
+    margin: 8rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.abouth{
+    text-align: center;
+    justify-content: center;
+}
