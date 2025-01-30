@@ -2,6 +2,7 @@ import styles from './ProjectStyles.module.css';
 import nft from '../../assets/nft.png';
 import ll from '../../assets/ll.png';
 import pokedex from '../../assets/pokedex.png';
+import tictactoe from '../../assets/tictactoe.png';
 import coffee from '../../assets/coffee.png';
 import food from '../../assets/food.png';
 import uber from '../../assets/uber.png';
@@ -29,6 +30,12 @@ function Projects() {
           link="https://github.com/gh0gale/pokedex"
           h3="Pokédex"
           p="HTML/CSS/JavaScript/PokéAPI"
+        />
+         <ProjectCard
+          src={tictactoe}
+          link="https://github.com/gh0gale/pokedex"
+          h3="TicTacToe Game"
+          p="HTML/CSS/JavaScript"
         />
       </div>
 
