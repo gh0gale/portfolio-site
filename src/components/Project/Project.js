@@ -12,6 +12,7 @@ function Projects() {
   return (
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
+      
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={nft}
@@ -31,12 +32,13 @@ function Projects() {
           h3="Pokédex"
           p="HTML/CSS/JavaScript/PokéAPI"
         />
-         <ProjectCard
+         {/* <ProjectCard
           src={tictactoe}
           link="https://github.com/gh0gale/pokedex"
           h3="TicTacToe Game"
           p="HTML/CSS/JavaScript"
-        />
+        /> */}
+        
       </div>
 
       <h1 className="sectionTitle">Designs</h1>
@@ -60,6 +62,7 @@ function Projects() {
           p="Figma"
         />
       </div>
+      
     </section>
 
     
