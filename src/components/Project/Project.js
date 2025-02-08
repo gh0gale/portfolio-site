@@ -24,7 +24,7 @@ function Projects() {
           src={ll}
           link="https://github.com/gh0gale/little-lemon"
           h3="Little Lemon"
-          p="HTML/CSS/React.js"
+          p="HTML/CSS/JavaScript/React.js"
         />
         <ProjectCard
           src={pokedex}
