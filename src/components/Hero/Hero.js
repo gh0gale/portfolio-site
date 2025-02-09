@@ -34,7 +34,7 @@ function Hero() {
         />
       </div>
       <div className={styles.info}>
-        <h1>
+        <h1 className={styles.infoh}>
           Yash
           <br />
           Ghogale

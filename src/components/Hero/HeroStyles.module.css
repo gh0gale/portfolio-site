@@ -86,6 +86,11 @@
   gap: 20px;
 }
 
+.infoh{
+  font-size: 54px;
+  font-weight: bolder;
+}
+
 @media (width >= 800px) {
   .container {
     flex-direction: row-reverse;
@@ -108,16 +113,5 @@
   }
 }
 
-.aboutc {
-  margin: 3rem;
-  display: flex;
-  flex-direction: column;
-  gap: 5rem;
-}
-
-.abouth {
-  text-align: center;
-  justify-content: center;
-}
 
 
