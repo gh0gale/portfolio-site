@@ -7,6 +7,9 @@ import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 import CV from "../../assets/cv.pdf";
+import a from "../../assets/a.jpg";
+import b from "../../assets/b.webp";
+import b1 from "../../assets/b1.png";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -20,7 +23,8 @@ function Hero() {
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img
-          src={heroImg}
+          // src={heroImg}
+          src={b1}
           className={styles.hero}
           alt="Profile picture of Yash Ghogale"
         />
@@ -33,23 +37,24 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Yash 
-          <br/>
+          Yash
+          <br />
           Ghogale
         </h1>
         <h2>UG Student</h2>
         <span>
-          <a href="https://github.com/gh0gale" target="_blank">
-            <img src={githubIcon} alt="Github icon" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/yash-ghogale-21b115335/"
-            target="_blank"
-          >
-            <img src={linkedinIcon} alt="Linkedin icon" />
-          </a>
+          
+            <a href="https://github.com/gh0gale" target="_blank">
+              <img src={githubIcon} alt="Github icon" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/yash-ghogale-21b115335/"
+              target="_blank"
+            >
+              <img src={linkedinIcon} alt="Linkedin icon" />
+            </a>
         </span>
-        <p className={styles.description}>Based in Mumbai</p>
+        {/* <p className={styles.description}>Based in Mumbai</p> */}
         <a href={CV} download>
           <button className="hover">Resume</button>
         </a>

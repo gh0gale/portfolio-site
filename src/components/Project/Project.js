@@ -18,13 +18,13 @@ function Projects() {
           src={nft}
           link="https://github.com/gh0gale/nft-landing-page"
           h3="Blobble"
-          p="HTML/CSS/React.js"
+          p="HTML/CSS/ReactJS"
         />
         <ProjectCard
           src={ll}
           link="https://github.com/gh0gale/little-lemon"
           h3="Little Lemon"
-          p="HTML/CSS/JavaScript/React.js"
+          p="HTML/CSS/JavaScript/ReactJS"
         />
         <ProjectCard
           src={pokedex}
