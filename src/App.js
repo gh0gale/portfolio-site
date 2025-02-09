@@ -8,7 +8,6 @@ import ScrollToTop from "./components/ScrollToTop/Scroll";
 import Skills from "./components/Skill/Skills";
 
 function App() {
-
   return (
     <>
       <Hero />
@@ -23,5 +22,3 @@ function App() {
 }
 
 export default App;
-
-

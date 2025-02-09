@@ -7,8 +7,6 @@ import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 import CV from "../../assets/cv.pdf";
-import a from "../../assets/a.jpg";
-import b from "../../assets/b.webp";
 import b1 from "../../assets/b1.png";
 import { useTheme } from "../../common/ThemeContext";
 
