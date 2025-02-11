@@ -1,12 +1,48 @@
-.aboutc{
-    margin: 8rem;
-    padding: 2rem;
+
+
+.aboutc {
     display: flex;
     flex-direction: column;
     gap: 5rem;
-}
-
-.abouth{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
     text-align: center;
-    justify-content: center;
-}
+  }
+  
+  .abouth {
+    font-size: 2rem;
+    
+  }
+  
+  .aboutp {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .abouth {
+      font-size: 1.8rem;
+    }
+  
+    .aboutp {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .abouth {
+      font-size: 1.5rem;
+    }
+  
+    .aboutp {
+      font-size: 0.9rem;
+    }
+  
+    .aboutc {
+      padding: 15px;
+    }
+  }
+  
