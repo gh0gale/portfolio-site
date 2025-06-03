@@ -15,9 +15,7 @@ I’m also deeply interested in machine learning and data analytics, and I enjoy
 I enjoy refining my skills, experimenting with modern frameworks, and staying updated with industry trends to craft visually appealing, responsive, and efficient digital experiences.
         <br />
         <br />
-        Beyond front-end development, I have a growing interest in Machine
-        Learning and Data Science and actively explore new domains to expand my
-        technical expertise.
+        
       </p>
     </div>
   );
