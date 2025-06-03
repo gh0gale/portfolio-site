@@ -16,8 +16,6 @@ import seaborn from "../../assets/seaborn.svg";
 
 
 
-
-
 function Skills() {
 
 

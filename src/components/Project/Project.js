@@ -2,11 +2,12 @@ import styles from './ProjectStyles.module.css';
 import nft from '../../assets/nft.png';
 import ll from '../../assets/ll.png';
 import pokedex from '../../assets/pokedex.png';
-import tictactoe from '../../assets/tictactoe.png';
 import coffee from '../../assets/coffee.png';
 import food from '../../assets/food.png';
 import uber from '../../assets/uber.png';
 import ProjectCard from '../../common/ProjectCard';
+import ecom from '../../assets/ecom.png';
+import blogify from '../../assets/blogify.png';
 
 function Projects() {
   return (
@@ -14,6 +15,12 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       
       <div className={styles.projectsContainer}>
+        <ProjectCard
+          src={ecom}
+          link="https://github.com/gh0gale/nft-landing-page"
+          h3="Ecommerce Site"
+          p="MERN Stack"
+        />
         <ProjectCard
           src={nft}
           link="https://github.com/gh0gale/nft-landing-page"
@@ -32,12 +39,13 @@ function Projects() {
           h3="Pokédex"
           p="HTML/CSS/JavaScript/PokéAPI"
         />
-         {/* <ProjectCard
-          src={tictactoe}
+        <ProjectCard
+          src={blogify}
           link="https://github.com/gh0gale/pokedex"
-          h3="TicTacToe Game"
-          p="HTML/CSS/JavaScript"
-        /> */}
+          h3="Blogify"
+          p="NodeJS/Express/MongoDB"
+        />
+        
         
       </div>
 
