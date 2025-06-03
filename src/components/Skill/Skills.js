@@ -6,14 +6,13 @@ import js from "../../assets/js.png";
 import reactjs from "../../assets/react.png";
 import mongodb from "../../assets/MongoDB.svg";
 import github from "../../assets/github.png";
+import nodejs from "../../assets/nodejs.png";
 
 import python from "../../assets/python.png";
 import numPy from "../../assets/NumPy.svg";
 import pandas from "../../assets/pandas.svg";
 import matplotlib from "../../assets/Matplotlib.svg";
 import seaborn from "../../assets/seaborn.svg";
-
-
 
 
 
@@ -53,6 +52,10 @@ function Skills() {
         <div className={styles.content}>
           <img src={github} />
           <h3>GitHub</h3>
+        </div>
+        <div className={styles.content}>
+          <img src={nodejs} />
+          <h3>NodeJS</h3>
         </div>
       </section>
       
