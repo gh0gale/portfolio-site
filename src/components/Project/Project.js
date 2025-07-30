@@ -1,7 +1,6 @@
 import styles from './ProjectStyles.module.css';
 import nft from '../../assets/nft.png';
 import ll from '../../assets/ll.png';
-import pokedex from '../../assets/pokedex.png';
 import coffee from '../../assets/coffee.png';
 import food from '../../assets/food.png';
 import uber from '../../assets/uber.png';
