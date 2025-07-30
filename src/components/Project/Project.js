@@ -7,7 +7,8 @@ import food from '../../assets/food.png';
 import uber from '../../assets/uber.png';
 import ProjectCard from '../../common/ProjectCard';
 import ecom from '../../assets/ecom.png';
-import blogify from '../../assets/blogify.png';
+import examc from '../../assets/examc.png';
+import onethrive from '../../assets/onethrive.png';
 
 function Projects() {
   return (
@@ -17,13 +18,19 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={ecom}
-          link="https://github.com/gh0gale/nft-landing-page"
+          link="https://github.com/gh0gale/e-commerce"
           h3="Ecommerce Site"
-          p="MERN Stack"
+          p="MERN(MongoDB, Express, ReactJS, NodeJS)"
+        />
+        <ProjectCard
+          src={examc}
+          link="https://github.com/gh0gale/"
+          h3="Exam Central"
+          p="ReactJS, FirebaseDB, Firebase Auth "
         />
         <ProjectCard
           src={nft}
-          link="https://github.com/gh0gale/nft-landing-page"
+          link="https://github.com/gh0gale/blobbe"
           h3="Blobble"
           p="HTML/CSS/ReactJS"
         />
@@ -34,16 +41,10 @@ function Projects() {
           p="HTML/CSS/JavaScript/ReactJS"
         />
         <ProjectCard
-          src={pokedex}
-          link="https://github.com/gh0gale/pokedex"
-          h3="Pokédex"
-          p="HTML/CSS/JavaScript/PokéAPI"
-        />
-        <ProjectCard
-          src={blogify}
-          link="https://github.com/gh0gale/pokedex"
-          h3="Blogify"
-          p="NodeJS/Express/MongoDB"
+          src={onethrive}
+          link="https://onethrive-beta.vercel.app/"
+          h3="OneThrive"
+          p="HTML/CSS/JavaScript/ReactJS"
         />
         
         
